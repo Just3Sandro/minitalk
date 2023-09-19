@@ -8,8 +8,8 @@
 
 void	handle_signal(int signal)
 {
-	static	unsigned char current_char;
-	static int;
+	static	unsigned char 	current_char;
+	static int		bit_index;
 
 	current_char |= (signal == SIGUSR1);
 	bit_index++;
